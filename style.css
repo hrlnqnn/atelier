@@ -414,12 +414,54 @@ footer {
 
 /*RESPONSIVE*/
 
+/* @media (max-width: 549px) {
+
+    .home-absolute-content {
+        top: 60%;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+
+    .main-heading {
+        font-size: 20px;
+        margin: 20;
+    }
+
+    .arrow-down {
+        height: 70px;
+    }
+
+    .footer-nav,
+    .footer-contacts {
+        flex-direction: column;
+        text-align: center;
+    } */
+
 /*for large mobile*/
 
-@media (min-width: 550px) {
+@media (min-width: 280px) {
+
+    .home-absolute-content {
+        top: 55%;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+
+    .main-heading {
+        font-size: 20px;
+        margin: 20;
+    }
 
     .home {
         height: 700px;
+    }
+
+    .arrow-down {
+        height: 70px;
     }
 
     .about-img-box {
@@ -435,11 +477,25 @@ footer {
         font-size: 18px;
     }
 
+    .footer-nav,
+    .footer-contacts {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-brand-img {
+        width: 250px;
+    }
+
 }
 
 /*for tablet*/
 
-@media (min-width: 768px) {
+@media (min-width: 550px) {
+
+    .navbar img {
+        width: 150px;
+    }
 
     .navbar-nav {
         position: static;
@@ -513,11 +569,20 @@ footer {
         grid-template-columns: repeat(4, 1fr);
     }
 
+    .footer-nav {
+        flex-direction: row;
+        text-align: center;
+    }
+
 }
 
 /*for desktop screen */
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+
+    .navbar img {
+        width: 200px;
+    }
 
     .navbar {
         padding: 35px 40px;
@@ -575,6 +640,12 @@ footer {
 
     .client-text {
         margin-bottom: 70px;
+    }
+
+    .footer-nav,
+    .footer-contacts {
+        flex-direction: row;
+        text-align: center;
     }
 
 }

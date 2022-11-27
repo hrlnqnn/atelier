@@ -83,8 +83,12 @@ header {
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 30px 25px;
+}
+
+.navbar img {
+    width: 250px;
 }
 
 .navbar-brand {
@@ -372,6 +376,7 @@ footer {
 .footer-brand-img {
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
 }
 
 .footer-nav,
@@ -534,7 +539,7 @@ footer {
         font-size: 55px;
         letter-spacing: 9px;
         margin-bottom: 95px;
-        margin-top: 195px;
+        margin-top: 300px;
     }
 
     .about-content {
